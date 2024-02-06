@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+</head>
+
+<body>
+        <form method="post">
+
+                <div class="container">
+                        <div>
+                                <label for="uname"><b>To</b></label>
+                                <input type="text" placeholder="Enter email" name="to" required>
+                        </div>
+                        <div>
+                                <label for="subject"><b>Subject</b></label>
+                                <input type="text" placeholder="Enter subject" name="sub" required>
+                        </div>
+                        <div>
+                                <label for="text"><b>html</b></label>
+                                <input type="text" placeholder="Enter contente" name="text" required>
+                        </div>
+                        <!-- <div>
+                                <label for="psw"><b>password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                        </div> -->
+                        <button type="submit">Send</button>
+                </div>
+                <h1>
+                        <%= text%>
+                </h1>
+        </form>
+</body>
+
+</html>
